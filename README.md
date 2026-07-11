@@ -40,8 +40,9 @@ Create a project folder containing:
 ### Install Dependencies
 
 ``` bash
+uv init
 uv venv
-uv pip install playwright python-dotenv
+uv pip install -r requirements.txt
 uv run playwright install chromium
 ```
 
@@ -78,13 +79,7 @@ The script:
 
 1.  Logs into the Procare portal as a parent.
 2.  Opens the target gallery.
-3.  Switches to weekly or daily view.
+3.  Switches to weekly or daily view based on the configuration.
 4.  Scrolls to load images and downloads them.
 5.  Navigates backward through the gallery.
 6.  Stops when the configured date boundary is reached.
-
-## Freezing Dependencies
-
-``` bash
-uv pip freeze > requirements.txt
-```
