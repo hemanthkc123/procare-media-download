@@ -14,3 +14,4 @@ env/
 #env file that contains the login and password
 .env
 procare_photos/
+.DS_Store
