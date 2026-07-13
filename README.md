@@ -60,6 +60,7 @@ PROCARE_PASSWORD="your_secure_password"
 ### Runtime Targets (`config.json`)
 
 Change the configuration when to stop downloading the files
+
 Copy the target gallery URL from your account
 
 ``` json
