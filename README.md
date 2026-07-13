@@ -60,12 +60,14 @@ PROCARE_PASSWORD="your_secure_password"
 ### Runtime Targets (`config.json`)
 
 Change the configuration when to stop downloading the files
+Copy the target gallery URL from your account
 
 ``` json
 {
   "view_mode": "Weekly",
   "stop_month": "October",
-  "stop_year": "2025"
+  "stop_year": "2025",
+  "target_gallery": "https://schools.procareconnect.com/dashboard/gallery/<udid>/photos"
 }
 ```
 

@@ -19,7 +19,7 @@ def load_config():
         "view_mode": "Weekly",
         "stop_month": "October",
         "stop_year": "2025",
-        "target_gallery": "https://schools.procareconnect.com/dashboard/gallery/dfff226e-4fb6-4f8c-ba6f-f0ec8f362282/photos"
+        "target_gallery": "https://schools.procareconnect.com/dashboard/gallery/<udid>/photos"
     }
     if os.path.exists("config.json"):
         try:
