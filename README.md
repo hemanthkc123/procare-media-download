@@ -4,6 +4,8 @@ An automated Python and Playwright script that systematically traverses your Pro
 
 My child was ending her term at daycare, and I had no way to download her photos. So, I created this utility to download the photos and videos.
 
+I haven’t tested every scenario or edge case yet. Please feel free to submit issues or pull requests if you encounter any problems or have improvements to contribute.
+
 ------------------------------------------------------------------------
 
 ## Directory Structure
